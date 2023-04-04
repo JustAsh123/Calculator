@@ -31,6 +31,10 @@ table {
     font-family:'digital-clock-font',Arial, Helvetica, sans-serif;
   }
   
+  input::placeholder{
+    color: black;
+  }
+
   button{
     width: 2.5rem;
     height: 2.5rem;

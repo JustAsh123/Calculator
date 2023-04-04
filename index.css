@@ -1,9 +1,4 @@
 /* Styles for all screen sizes */
-@font-face{
-    font-family:'digital-clock-font';
-    src: url('https://www.1001fonts.com/digital-7-font.html');
-}
-
 table {
     width: 100%;
     max-width: 100px;

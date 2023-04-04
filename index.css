@@ -5,6 +5,7 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
     border: 2px solid black;
+    background-color: #292D36;
   }
   
   td {
@@ -12,9 +13,9 @@ table {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #2A2D36;
+    background-color: #292D36;
     width: 25%; /* all buttons are the same size */
-    padding: 0;
+    padding: 4px;
   }
   
   input {
@@ -33,11 +34,11 @@ table {
   button{
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: 50%;
+    border-radius: 30%;
     border-width: 0;
     border-style: solid;
     margin: 0;
-    background-color: #2A2D36;
+    background-color: rgb(35, 38, 45);
     color: white;
     font-size: 20px;
     cursor: pointer;

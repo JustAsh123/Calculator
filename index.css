@@ -27,12 +27,13 @@ table {
     padding-right: 10px;
     box-sizing: border-box;
     border: none;
-    background-color: #fff;
+    background-color: rgb(34,37,45);
+    color: white;
     font-family:'digital-clock-font',Arial, Helvetica, sans-serif;
   }
   
   input::placeholder{
-    color: black;
+    color: white;
   }
 
   button{

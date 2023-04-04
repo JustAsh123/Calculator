@@ -1,18 +1,23 @@
 /* Styles for all screen sizes */
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('https://www.1001fonts.com/digital-7-font.html');
+}
+
 table {
     width: 100%;
-    max-width: 500px;
+    max-width: 100px;
     margin: 0 auto;
     border-collapse: collapse;
+    border: 2px solid black;
   }
   
   td {
     text-align: center;
-    border: 1px solid black;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #434447;
+    background-color: #2A2D36;
     width: 25%; /* all buttons are the same size */
     padding: 0;
   }
@@ -27,12 +32,24 @@ table {
     box-sizing: border-box;
     border: none;
     background-color: #fff;
+    font-family:'digital-clock-font',Arial, Helvetica, sans-serif;
   }
   
   button{
-    width: 100%;
+    width: 2.5rem;
     height: 2.5rem;
+    border-radius: 50%;
+    border-width: 0;
+    border-style: solid;
     margin: 0;
+    background-color: #2A2D36;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #1a1f2d;
   }
 
   /* Styles for small screens */
